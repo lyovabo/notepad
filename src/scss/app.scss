@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Optional
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+
+#app {
+  max-width: 850px;
+  margin: 0 auto;
+}
+body {
+  background-color: #eee;
+  .notes-page input,
+  textarea {
+    color: #333;
+    font-family: "Arial";
+  }
+  button {
+    font-size: 14px;
+  }
+}
